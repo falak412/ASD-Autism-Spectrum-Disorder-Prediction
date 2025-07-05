@@ -31,46 +31,59 @@ This project is a web-based application that predicts the likelihood of Autism S
 | Joblib          | Model serialization                  |
 
 ---
-
-## 📂 Project Structure
-
-<pre lang="markdown"> ```bash ASD-Predictor/ │ ├── app/ │ ├── app.py # Main Streamlit app │ ├── model.joblib # Trained ML model │ └── preprocess.py # Feature processing functions │ ├── requirements.txt # Python dependencies ├── README.md # Project overview └── dataset/ # (Optional) Training data ``` </pre>
-
+📂 Project Structure
+---
+ASD-Predictor/
+│
+├── app/
+│__ backend/  
+│
+├── data/                
+├── requirements.txt       
+└── README.md               
 
 ---
+📈 How to Run Locally
+---
+1. Clone the Repository
 
-## 📈 How to Run Locally
-
-### 1. Clone the Repository
-
-```bash
 git clone https://github.com/your-username/asd-predictor.git
 cd asd-predictor
 
-###2. Install Dependencies
+2. Install Dependencies
 
 pip install -r requirements.txt
 
-###3. Run the Streamlit App
+3. Run the Streamlit App
 
 streamlit run app/app.py
 
-##📊 Dataset
+---
+📊 Dataset
+---
 Source: Kaggle Autism Screening Dataset
 
-Features Used: Age, Gender, Ethnicity, Jaundice, Family history, Behavioral patterns, etc.
+Features Used: Age, Gender, Ethnicity, Jaundice, Family History, Behavioral Patterns, etc.
 
-##🔮 Model
+---
+🔮 Model
+---
 Algorithm: Random Forest Classifier
 
-Accuracy: (Insert accuracy or performance here)
+Accuracy: Insert model accuracy or metrics here
 
 Input Features: 20 features used for training
 
-##🤝 Contributing
-Contributions are welcome! Feel free to submit a pull request or open an issue.
+---
+🤝 Contributing
+---
+Contributions are welcome!
+Feel free to submit a pull request or open an issue.
 
-##🧑‍💻 Author
+---
+🧑‍💻 Author
+---
 Falak Vhora
 Bachelor's in AI & ML | Open Source Contributor
 GitHub • LinkedIn
+
